@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Bubble Shooter Game</title>
-
-  <!-- Enlaza el archivo de estilos CSS para el juego -->
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Bubble Shooter Game</title>
+    <!-- Enlaza el archivo de estilos CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
-
 <body>
-  <!-- Contenedor principal del juego -->
-  <div class="container">
-    <!-- Elemento Canvas donde se representa el juego -->
-    <canvas id="viewport" width="628" height="628"></canvas>
-  </div>
-
-  <script type='text/javascript' src='script.js'></script>
+    <!-- Contenedor principal del juego utilizando Bootstrap clases -->
+    <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <!-- Elemento del videojuego (puede ser un iframe, video, canvas, etc.) -->
+        <iframe src="https://michelperea.github.io/Bubble-Shooting-Game/" width="800" height="600" style="border: none;"></iframe>
+    </div>
 </body>
 </html>
