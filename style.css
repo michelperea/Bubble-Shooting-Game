@@ -1,18 +1,31 @@
-body{
-    /* background-color: gray; */
-    background-image: linear-gradient(to right, rgb(184, 208, 217),rgb(247, 122, 122));
+body {
+    /* Establecer un fondo degradado en lugar de un color sólido */
+    background-image: linear-gradient(to right, rgb(184, 208, 217), rgb(247, 122, 122));
+    /* Definir un tamaño mínimo para el cuerpo para asegurar que el fondo sea visible */
+    min-height: 100vh;
+    margin: 0;
+    /* Añadir un relleno para el cuerpo */
+    padding: 0;
 }
 
-div{
-    border-radius: 30px;
-}
-#viewport{
- height: 628px;
- width: 628px;
- /* margin-left: 30%; */
- padding-top: 100px;
- border-radius: 50px;
- border: 3px blue;
- box-shadow: 10px 10px 10px 0 blue;
+div {
+    /* Agregar un relleno y margen interno para el elemento 'div' */
+    padding: 20px;
+    margin: 20px;
+    /* Redondear las esquinas de 'div' con un valor mayor */
+    border-radius: 40px;
 }
 
+#viewport {
+    /* Aumentar el tamaño del 'viewport' y centrarlo en la pantalla */
+    height: 80vh;
+    width: 80vh;
+    margin: 10vh auto;
+    padding: 20px;
+    /* Añadir un borde sólido a 'viewport' con un color azul */
+    border: 3px solid blue;
+    /* Agregar una sombra suave alrededor de 'viewport' */
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 255, 0.5);
+    /* Añadir un fondo blanco para que el contenido sea más legible */
+    background-color: white;
+}
