@@ -1,11 +1,11 @@
 /* Estilos generales para pantallas grandes */
 body {
-    background: linear-gradient(to right, #007BFF, #FFB800);
+    background: linear-gradient(to right, #0063FF, #00FFB8); /* Cambiar a degradado azul y neon */
     min-height: 100vh;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centrar el contenido en el eje horizontal */
     align-items: center;
 }
 
@@ -13,39 +13,42 @@ body {
     padding: 20px;
     margin: 10px auto;
     border-radius: 40px;
-    background-color: #ffffff;
+    background: linear-gradient(to right, #0063FF, #00FFB8); /* Cambiar a degradado azul y neon */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #viewport {
     height: 80vh;
     width: 80vh;
+    border-radius: 20px; /* Agregar un borde redondeado leve */
 }
 
 /* Media query para pantallas más pequeñas (tablets) */
 @media (max-width: 768px) {
     .profile-container {
-        margin: 5px auto; /* Reducir el margen superior aún más */
-        padding: 10px; /* Aumentar el relleno */
-        border-radius: 20px; /* Reducir el radio de las esquinas */
+        margin: 5px auto;
+        padding: 10px;
+        border-radius: 20px;
     }
 
     #viewport {
-        height: 60vh; /* Ajustar el tamaño del viewport */
+        height: 60vh;
         width: 60vh;
+        border-radius: 15px;
     }
 }
 
 /* Media query para pantallas aún más pequeñas (móviles) */
 @media (max-width: 576px) {
     .profile-container {
-        margin: 0; /* Eliminar el margen superior */
-        padding: 5px; /* Reducir el relleno */
-        border-radius: 10px; /* Reducir el radio de las esquinas aún más */
+        margin: 0;
+        padding: 5px;
+        border-radius: 10px;
     }
 
     #viewport {
-        height: 50vh; /* Ajustar el tamaño del viewport */
+        height: 50vh;
         width: 50vh;
+        border-radius: 10px;
     }
 }
