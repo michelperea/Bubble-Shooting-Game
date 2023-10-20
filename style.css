@@ -1,3 +1,4 @@
+/* Estilos generales para pantallas grandes */
 body {
     background: linear-gradient(to right, #007BFF, #FFB800);
     min-height: 100vh;
@@ -8,7 +9,43 @@ body {
     align-items: center;
 }
 
+.profile-container {
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 #viewport {
     height: 80vh;
     width: 80vh;
+}
+
+/* Media query para pantallas más pequeñas (tablets) */
+@media (max-width: 768px) {
+    .profile-container {
+        margin: 5px auto; /* Reducir el margen superior aún más */
+        padding: 10px; /* Aumentar el relleno */
+        border-radius: 20px; /* Reducir el radio de las esquinas */
+    }
+
+    #viewport {
+        height: 60vh; /* Ajustar el tamaño del viewport */
+        width: 60vh;
+    }
+}
+
+/* Media query para pantallas aún más pequeñas (móviles) */
+@media (max-width: 576px) {
+    .profile-container {
+        margin: 0; /* Eliminar el margen superior */
+        padding: 5px; /* Reducir el relleno */
+        border-radius: 10px; /* Reducir el radio de las esquinas aún más */
+    }
+
+    #viewport {
+        height: 50vh; /* Ajustar el tamaño del viewport */
+        width: 50vh;
+    }
 }
