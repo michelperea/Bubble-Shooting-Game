@@ -8,14 +8,6 @@ body {
     align-items: center;
 }
 
-.profile-container {
-    padding: 20px;
-    margin: 10px auto; /* Reducir el margen superior y centrar el perfil */
-    border-radius: 40px;
-    background-color: #ffffff; /* Fondo blanco */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agregar sombra suave */
-}
-
 #viewport {
     height: 80vh;
     width: 80vh;
