@@ -30,11 +30,3 @@ body {
         border-radius: 10px;
     }
 }
-
-/* Estilos personalizados para el contenedor del videojuego */
-.video-container {
-    background-color: #fff; /* Cambia el fondo si es necesario */
-    border: 2px solid #000; /* Agrega un borde si es necesario */
-    border-radius: 10px; /* Agrega un borde redondeado si es necesario */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega sombra si es necesario */
-}
