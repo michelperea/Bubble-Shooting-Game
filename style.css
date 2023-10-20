@@ -1,32 +1,43 @@
-/* Estilos generales para pantallas grandes */
-body {
-    background: linear-gradient(to right, #00a8ff, #0c7b8e);
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#viewport {
-    background: linear-gradient(to right, #00a8ff, #0c7b8e);
-    width: 80%; /* Ancho del 80% de la ventana del navegador */
-    max-width: 800px; /* Máximo ancho para evitar que sea demasiado grande */
-    height: auto; /* Ajusta automáticamente la altura según el contenido */
-    border-radius: 20px;
-}
-
-/* Media query para pantallas más pequeñas (tablets) */
-@media (max-width: 768px) {
-    #viewport {
-        border-radius: 15px;
+   body {
+      background: linear-gradient(to right, #00a8ff, #0c7b8e);
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
     }
-}
 
-/* Media query para pantallas aún más pequeñas (móviles) */
-@media (max-width: 576px) {
-    #viewport {
-        border-radius: 10px;
+    /* Contenedor principal centrado vertical y horizontalmente */
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
     }
-}
+
+    /* Panel con sombra y borde redondeado */
+    .panel {
+      background: linear-gradient(to bottom, #00a8ff, #0c7b8e);
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Botón de estilo neon */
+    .btn-neon {
+      background-color: transparent;
+      color: #00a8ff;
+      border: 2px solid #00a8ff;
+      border-radius: 30px;
+      padding: 10px 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    .btn-neon:hover {
+      background-color: #00a8ff;
+      color: #fff;
+    }
+ 
