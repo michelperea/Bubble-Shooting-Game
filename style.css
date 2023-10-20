@@ -1,6 +1,5 @@
-/* Estilos generales para pantallas grandes */
 body {
-    background: linear-gradient(to right, #0063FF, #00FFB8); /* Cambiar a degradado azul y neon */
+    background: linear-gradient(to right, #0c3c6e, #20334b); /* Fondo con colores robóticos */
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -10,6 +9,7 @@ body {
 }
 
 #viewport {
+    background: linear-gradient(to right, #00a8ff, #0c7b8e); /* Cambiar a degradado azul y neon */
     height: 80vh;
     width: 80vh;
     border-radius: 20px; /* Agregar un borde redondeado leve */
