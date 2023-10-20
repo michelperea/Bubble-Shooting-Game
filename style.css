@@ -1,6 +1,6 @@
 /* Estilos generales para pantallas grandes */
 body {
-    background: #fff; /* Fondo blanco para mucha luz */
+    background: linear-gradient(to right, #00a8ff, #0c7b8e); /* Fondo con degradado azul y neon */
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -11,16 +11,14 @@ body {
 
 #viewport {
     background: linear-gradient(to right, #00a8ff, #0c7b8e); /* Degradado azul y neon para el área de juego */
-    height: 80vh;
-    width: 80vh;
+    min-width: 100vw; /* Ancho mínimo igual al ancho de la pantalla */
+    min-height: 100vh; /* Altura mínima igual a la altura de la pantalla */
     border-radius: 20px; /* Agregar un borde redondeado leve */
 }
 
 /* Media query para pantallas más pequeñas (tablets) */
 @media (max-width: 768px) {
     #viewport {
-        height: 60vh;
-        width: 60vh;
         border-radius: 15px;
     }
 }
@@ -28,8 +26,6 @@ body {
 /* Media query para pantallas aún más pequeñas (móviles) */
 @media (max-width: 576px) {
     #viewport {
-        height: 50vh;
-        width: 50vh;
         border-radius: 10px;
     }
 }
