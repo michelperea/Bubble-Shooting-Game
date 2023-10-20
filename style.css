@@ -1,36 +1,22 @@
+/* Estilos generales para pantallas grandes */
 body {
-    background: linear-gradient(to right, #0063FF, #00FFB8);
+    background: linear-gradient(to right, #0063FF, #00FFB8); /* Cambiar a degradado azul y neon */
     min-height: 100vh;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-}
-
-.profile-container {
-    padding: 20px;
-    margin: 0 auto; /* Centrar horizontalmente */
-    max-width: 400px; /* Limitar el ancho para una apariencia profesional */
-    border-radius: 20px;
-    background: linear-gradient(to right, #0063FF, #00FFB8);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Centrar el contenido interno horizontalmente */
+    justify-content: center; /* Centrar el contenido en el eje horizontal */
+    align-items: center; /* Centrar vertical y horizontalmente */
 }
 
 #viewport {
     height: 80vh;
     width: 80vh;
-    border-radius: 20px;
+    border-radius: 20px; /* Agregar un borde redondeado leve */
 }
 
 /* Media query para pantallas más pequeñas (tablets) */
 @media (max-width: 768px) {
-    .profile-container {
-        padding: 10px;
-        border-radius: 20px;
-    }
-
     #viewport {
         height: 60vh;
         width: 60vh;
@@ -40,11 +26,6 @@ body {
 
 /* Media query para pantallas aún más pequeñas (móviles) */
 @media (max-width: 576px) {
-    .profile-container {
-        padding: 5px;
-        border-radius: 10px;
-    }
-
     #viewport {
         height: 50vh;
         width: 50vh;
