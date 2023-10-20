@@ -11,20 +11,16 @@ body {
 
 #viewport {
     background: linear-gradient(to right, #00a8ff, #0c7b8e);
-    min-width: 100vw;
-    min-height: 100vh;
+    width: 80%; /* Ancho del 80% de la ventana del navegador */
+    max-width: 800px; /* Máximo ancho para evitar que sea demasiado grande */
+    height: auto; /* Ajusta automáticamente la altura según el contenido */
     border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /* Media query para pantallas más pequeñas (tablets) */
 @media (max-width: 768px) {
     #viewport {
         border-radius: 15px;
-        min-height: 60vh; /* Ajustar la altura para evitar que se vea gigante en pantallas pequeñas */
-        min-width: 60vw; /* Ajustar el ancho proporcionalmente */
     }
 }
 
@@ -32,7 +28,5 @@ body {
 @media (max-width: 576px) {
     #viewport {
         border-radius: 10px;
-        min-height: 50vh; /* Ajustar la altura para pantallas móviles */
-        min-width: 50vw; /* Ajustar el ancho proporcionalmente */
     }
 }
