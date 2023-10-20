@@ -1,19 +1,22 @@
 /* Estilos generales para pantallas grandes */
 body {
-    background: linear-gradient(to right, #00a8ff, #0c7b8e); /* Fondo con degradado azul y neon */
+    background: linear-gradient(to right, #00a8ff, #0c7b8e);
     min-height: 100vh;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; /* Centrar el contenido en el eje horizontal */
-    align-items: center; /* Centrar vertical y horizontalmente */
+    justify-content: center;
+    align-items: center;
 }
 
 #viewport {
-    background: linear-gradient(to right, #00a8ff, #0c7b8e); /* Degradado azul y neon para el área de juego */
-    min-width: 100vw; /* Ancho mínimo igual al ancho de la pantalla */
-    min-height: 100vh; /* Altura mínima igual a la altura de la pantalla */
-    border-radius: 20px; /* Agregar un borde redondeado leve */
+    background: linear-gradient(to right, #00a8ff, #0c7b8e);
+    min-width: 100vw;
+    min-height: 100vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Media query para pantallas más pequeñas (tablets) */
